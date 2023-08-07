@@ -43,6 +43,7 @@ Run:
 bundle exec rubocop --parallel -A
 bundle exec rubocop --parallel -A
 bundle exec rubocop --auto-gen-config
+bundle exec brakeman -q -w2
 ```
 
 - Database creation
